@@ -1,0 +1,36 @@
+name: reflex-slides
+version: 0.1.0.0
+synopsis: A slideshow toolkit for Reflex Dom
+description: See README at <https://github.com/ners/reflex-slides#readme>
+github: ners/reflex-slides
+category: Web
+license-file: LICENCE
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - base64
+    - bytestring
+    - clay
+    - data-default
+    - file-embed
+    - lens
+    - mtl
+    - reflex-arc
+    - reflex-dom
+    - text
+    - transformers
+    - web-font-mdi
+
+default-extensions:
+  - DefaultSignatures
+  - LambdaCase
+  - MultiParamTypeClasses
+  - NamedFieldPuns
+  - OverloadedStrings
+  - RankNTypes
+  - RecordWildCards
+  - ScopedTypeVariables
+  - TupleSections
+  - TypeApplications
